@@ -12,7 +12,7 @@ const app = Vue.createApp({
    function (){
     return {
       films: [],
-      searchQuery: "sister",
+      searchQuery: null,
       searchQueryInput: ''
       }
   },
